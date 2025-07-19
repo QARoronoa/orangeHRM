@@ -1,9 +1,32 @@
+# Ignore les dossiers et fichiers générés automatiquement
+.idea/
 __pycache__/
 *.pyc
+*.pyo
 *.log
-.env
-.idea/
-node_modules/
-.vscode/
-traces/
-*.html
+
+# Résultats de test
+allure-results/
+allure-report/
+report.html
+
+# Dossiers de projets hors du scope
+../AutomationExercice Gherkin/
+../LetsShop*/
+../MyShop*/
+../PytestPython/
+../assets/
+../newautomationExercice/
+../playwright/
+../pythonBasics/
+../pythonProject1/
+../sauceDemo BDD/
+
+# Fichiers temporaires
+*.tmp
+*.bak
+*.swp
+
+# OS stuff
+.DS_Store
+Thumbs.db
